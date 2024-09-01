@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix India - Watch TV Show Online, Watch Movie Online</title>
+    <link rel="stylesheet" href="NetFlix.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="netflix.png" type="image/x-icon" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+
+  <body>
+    <main>
+      <section class="section">
+        <header>
+          <nav>
+            <div class="navbar">
+              <div class="logo">
+                <figure>
+                  <img src="netflix-2-logo-svgrepo-com.svg" alt="logo" />
+                </figure>
+              </div>
+              <div class="links">
+                <select name="lang" id="option">
+                  <option value="English" selected>English</option>
+                  <option value="HIndi">HIndi</option>
+                </select>
+                <button>Sign In</button>
+              </div>
+            </div>
+          </nav>
+          <div class="container hero1">
+            <h1 class="heading1">Unlimited movies, TV shows and more</h1>
+            <h1 class="heading2">Watch anywhere. Cancel anytime.</h1>
+            <h1 class="heading3">
+              Ready to watch? Enter your email to create or restart your
+              membership.
+            </h1>
+            <input
+              id="login_input"
+              type="email"
+              placeholder="Email address"
+              required
+            /><button id="login_btn" type="submit">Get Started ></button>
+          </div>
+        </header>
+
+        <hr class="breakline" />
+      </section>
+
+      <!-- section 2 ----------------------------------- -->
+      <section>
+        <div class="container hero2">
+          <div class="left_cont_1">
+            <h1 class="cont_h1">Enjoy on your TV</h1>
+            <br />
+            <h2 class="cont_h2">
+              Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+              Blu-ray players and more.
+            </h2>
+          </div>
+
+          <div class="right_cont_1">
+            <img src="tv.webp" alt="tvpng" />
+
+            <video src="./video-tv-in-0819.mp4" autoplay loop muted></video>
+          </div>
+        </div>
+      </section>
+      <div class="breakline"></div>
+      <!-- section ------3----------- -->
+      <section>
+        <div class="container hero3">
+          <div class="left_cont_2">
+            <img src="mobile-0819.webp" alt="mobile-svg" />
+          </div>
+
+          <div class="right_cont_2">
+            <h1 class="cont_h1">Download your shows to watch offline</h1>
+            <br />
+            <h2 class="cont_h2">
+              Save your favourites easily and always have something to watc
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <hr class="breakline" />
+      <!-- section----------4-------------------------- -->
+      <section>
+        <div class="container hero4">
+          <div class="left_cont_3">
+            <h1 class="cont_h1">Watch everywhere</h1>
+            <br />
+            <h2 class="cont_h2">
+              Stream unlimited movies and TV shows on your phone, tablet,
+              laptop, and TV.
+            </h2>
+          </div>
+
+          <div class="right_cont_3">
+            <img src="device-pile-in.webp" alt="device svg" />
+            <video
+              src="./video-devices-in.mp4"
+              width="380"
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+        </div>
+      </section>
+      <hr class="breakline" />
+      <!-- section------------------------------5-------------------- -->
+      <section>
+        <div class="container hero5">
+          <div class="left_cont_4">
+            <img src="cartoon.webp" alt="cartoon svg" />
+          </div>
+
+          <div class="right_cont_4">
+            <h1 class="cont_h1">Create profiles for kids</h1>
+            <br />
+            <h2 class="cont_h2">
+              Send children on adventures with their favourite characters in a
+              space made just for them—free with your membership.
+            </h2>
+          </div>
+        </div>
+
+        <hr class="breakline" />
+      </section>
+      <!-- section ---6--------------------------- -->
+      <section>
+        <div class="container hero6">
+          <h1 class="cont_h1 h1_btn">Frequently Asked Questions</h1>
+
+          <button onclick="onchange" class="btn">
+            What is Netflix? <i class="fa fa-plus" aria-hidden="true"></i>
+          </button>
+
+          <button class="btn">
+            How much does Netflix cost?
+            <i class="fa fa-plus" aria-hidden="true"></i>
+          </button>
+
+          
+
+          <button class="btn">
+            Where can I watch? <i class="fa fa-plus" aria-hidden="true"></i>
+          </button>
+
+          
+          <button class="btn">
+            How do I cancel? <i class="fa fa-plus" aria-hidden="true"></i>
+          </button>
+
+          
+          <button class="btn">
+            What can I watch on Netflix?
+            <i class="fa fa-plus" aria-hidden="true"></i>
+          </button>
+
+          
+          <button class="btn">
+            Is Netflix good for kids?
+            <i class="fa fa-plus" aria-hidden="true"></i>
+          </button>
+
+          
+        </div>
+      </section>
+    </main>
+    <hr class="breakline" />
+    <footer>
+      <div class="container hero7">
+        <div>
+          
+          
+          <ul>
+          <li><a href="https://help.netflix.com/en/node/412">FAQ</a></li>
+          <li><a href="https://ir.netflix.net/ir-overview/profile/default.aspx">Investor Relations</a></li>
+          <li><a href="https://help.netflix.com/legal/privacy">Privacy</a></li>
+          <li><a href="https://fast.com/">Speed Test</a></li>
+        </ul></div>
+        <div>
+          
+          <ul>
+          <li><a href="https://help.netflix.com/en">
+            Help Centre</a></li>
+          <li><a href="https://jobs.netflix.com/">
+            Jobs</a></li>
+          <li><a href="#">
+            Cookie Preferences</a></li>
+          <li><a href="https://help.netflix.com/legal/notices">
+            Legal Notices</a></li>
+        </ul></div>
+        <div>
+          
+          <ul>
+          <li><a href="https://www.netflix.com/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount"> 
+            Account</a></li>
+          <li><a href="https://help.netflix.com/en/node/14361">
+            Ways to Watch</a></li>
+          <li><a href="https://help.netflix.com/en/node/134094">Corporate Information</a></li>
+          <li><a href="https://www.netflix.com/in/browse/genre/839338">
+            Only on Netflix</a></li>
+        </ul></div>
+        <div>
+          
+          <ul>
+          <li><a href="https://media.netflix.com/en/">
+            Media Centre/a></li>
+          <li><a href="https://help.netflix.com/legal/termsofuse">
+            Terms of Use</a></li>
+          <li><a href="https://help.netflix.com/en/contactus">
+            Contact Us</a></li>
+         
+        </ul></div>
+      </div>
+    </footer>
+
+    <script src="Netflix.js"></script>
+  </body>
+</html>
